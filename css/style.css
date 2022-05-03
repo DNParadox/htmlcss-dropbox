@@ -14,11 +14,11 @@ body {
 header {
     height: 100px;
     width: 100%;
-    /* Debug */
     left: 0;
     top: 0;
-    position: fixed;
     z-index: 10;
+    position: fixed;
+    background-color: white;
 }
 
 .container {
@@ -46,6 +46,27 @@ header a {
     color:  black;
 }
 
+/* Main */
+main {
+    margin-top: 100px;
+    background-color: lightcoral;
+    height: 1000px;
+    width: 100%;
+}
+
+/* jumbotron */
+.jumbotron {
+    height: 33%;
+    width: 80%;
+    padding-top: 40px;
+    margin: 0 auto;
+    background-color: #b3d0e7;
+  
+}
+
+.title{
+    font-size: 46px;
+}
 /* Common */
 
 .btnsmall {
@@ -61,4 +82,26 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.jumbotronbottom {
+    display: flex;
+    margin-top: 50px;
+    background-color: #b3d0e7;
+
+}
+
+.textbox{
+    height: auto;
+    width: 100%;
+}
+
+.imagebox {
+    height: auto;
+    width: 100%;
+}
+
+.imagebox img {
+    width: 100%;
+    height: auto;
 }
