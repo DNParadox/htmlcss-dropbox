@@ -50,17 +50,16 @@ header a {
 /* Main */
 .first.section {
     background-color: #b3d0e7;
+    height: 600px;
 }
 main {
     margin-top: 100px;
-    background-color: lightcoral;
-    height: 1000px;
+    height: 100%;
     width: 100%;
 }
 
 /* jumbotron */
 .jumbotron {
-    height: 33%;
     width: 80%;
     padding-top: 40px;
     margin: 0 auto; 
@@ -68,13 +67,12 @@ main {
 
 .jumbotronbottom {
     display: flex;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .title{
     font-size: 46px;
 }
-/* Common */
 
 .btn {
     height: 30px;
@@ -84,25 +82,16 @@ main {
     color: white;
 }
 
-.test {
-    margin-top: 30px;
+.register {
+    padding-top: 30px;
     text-decoration: none;
     line-height: 12px;
 }
 
 .arrow {
-    margin-top: 50px;
-    font-size: 50px;
+    padding-top: 40px;
+    font-size: 40px;
 }
-/* Flex */
-
-.flexlist {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 .textbox{
     line-height: 24px;
@@ -123,11 +112,49 @@ main {
 .imagebox {
     height: auto;
     width: 100%;
-    background-color: lightgoldenrodyellow;
 }
 
 .imagebox img {
     width: 100%;
     height: auto;
     
+}
+/* Common */
+
+
+/* Flex */
+
+.flexlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* fine Flex */
+
+
+.second.section {
+    margin-top: 200px;
+    background-color: lightgoldenrodyellow;
+    height: 1000px;
+}
+ /* Second section */
+.box {
+    width:55%;
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 50px 0px;
+    font-size: 35px;
+}
+
+.circle {
+    display: inline-block;
+    word-spacing: 3px;
+    height: 10px;
+    width: 8px;
+    border: 4px solid #0160ff;
+    padding: 5px;
+    border-radius: 50px;
+    line-height: 0px;
 }
