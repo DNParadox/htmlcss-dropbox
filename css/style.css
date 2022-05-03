@@ -1,0 +1,64 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    position: relative
+}
+
+/* Header */
+header {
+    height: 100px;
+    width: 100%;
+    /* Debug */
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+.container {
+    height: 100%;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.hleft li {
+    padding-right: 30px;
+}
+
+.hright li {
+    padding-left: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color:  black;
+}
+
+/* Common */
+
+.btnsmall {
+    height: 30px;
+    width: 70px;
+    border: 1px solid #0160ff;
+    background-color: #0160ff;
+    color: white;
+}
+/* Flex */
+
+.flexlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
