@@ -129,23 +129,34 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.flex {
+    display: flex;
+}
+
+.column {
+    display: flex;
+}
 /* fine Flex */
 
-
+ /* Second Section */
 .second.section {
     margin-top: 200px;
     background-color: lightgoldenrodyellow;
     height: 1000px;
 }
- /* Second section */
+
 .box {
     width:55%;
     margin: 0 auto;
 }
-
+/* fatture  */
+.fatture {
+    padding-bottom: 50px;
+}
 h2 {
     padding: 50px 0px;
-    font-size: 35px;
+    font-size: 33px;
 }
 
 .circle {
@@ -153,8 +164,38 @@ h2 {
     word-spacing: 3px;
     height: 10px;
     width: 8px;
-    border: 4px solid #0160ff;
-    padding: 5px;
+    border: 1px solid #eeeef0;
+    padding: 8px;
     border-radius: 50px;
     line-height: 0px;
+}
+
+#circle {
+    border: 4px solid #0160ff;
+    padding: 5px;
+}
+
+.fatturetesto {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+/* Fine fatture */
+
+/* colonne */
+
+.column {
+    background-color: lightseagreen;
+    justify-content: space-between;
+}
+ 
+h3 {
+    text-align: center;
+    border-bottom: 1px solid #eeeef0;
+}
+.col {
+    /* margin-right: 30px; */
+    border: 1px solid #eeeef0;  
+    width: 30%;
+  
 }
