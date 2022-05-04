@@ -164,7 +164,7 @@ h2 {
     word-spacing: 3px;
     height: 10px;
     width: 8px;
-    border: 1px solid #eeeef0;
+    border: 2px solid #eeeef0;
     padding: 8px;
     border-radius: 50px;
     line-height: 0px;
@@ -185,17 +185,61 @@ h2 {
 /* colonne */
 
 .column {
-    background-color: lightseagreen;
     justify-content: space-between;
 }
  
-h3 {
+.col h5 {
+    padding: 10px 0px;
+    vertical-align: middle;
     text-align: center;
     border-bottom: 1px solid #eeeef0;
+    font-size: 16px;
+    white-space: 3px;
+    font-weight: normal;
 }
 .col {
-    /* margin-right: 30px; */
     border: 1px solid #eeeef0;  
     width: 30%;
-  
 }
+h3 {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.price {
+    font-weight: bold;
+}
+.subscribeoption {
+    color:  gray;
+}
+.col ul {
+    padding: 10px 0px 0px 20px;
+    line-height: 24px;
+}
+
+.col .middleul {
+    padding: 20px 0px 10px 20px;
+
+}
+
+.lilink {
+    padding-top: 20px;
+}
+.col li {
+    font-size: 11px;
+}
+
+.col  li.btn {
+    width: 180px;
+}
+
+.border.gray {
+    border-bottom: 1px solid #eeeef0;
+    width: 32px;
+}
+
+li h4 {
+    font-size: 14px;
+}
+
+
