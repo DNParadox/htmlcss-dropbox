@@ -328,9 +328,12 @@ img {
     padding: 40px 50px;
     width: 60%;
 }
+.partnertext p {
+    padding: 40px 0px;
+}
 
 .partnertext img {
-    width: 15%;
+    width: 20%;
 }
 .box1 {
     background-color: #a2d39b;
@@ -411,7 +414,7 @@ img {
  .qea ul li a{
      text-decoration:none;
      padding: 24px 0px;
-     border-top: 1px solid #e9e9ea;
+     border-top: 3px solid #e9e9ea;
      text-decoration: none;
      font-size: 11px;
      display: flex;
@@ -423,4 +426,33 @@ img {
      border-bottom: 1px solid #e9e9ea;
      margin-bottom: 100px;
  }
+
+ footer {
+     background-color: black;
+     height: 500px;
+     color: white;
+     position: relative;
+ }
+ .footerbox {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    position: absolute;
+    left: 18%;
+    top: 18%;
+ }
+
+ .footerbox li a {
+     text-decoration: none;
+     font-size: 12px;
+     line-height: 20px;
+     color: white;
+ }
+ 
+ .footerbox li:first-child {
+     padding-bottom: 20px;
+     font-weight: bold;
+     font-size: 14px;
+ }
+
 
