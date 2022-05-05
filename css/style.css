@@ -142,7 +142,7 @@ main {
 
                     /* Second Section */
 .second.section {
-    margin-top: 200px;
+    margin-top: 120px;
     height: 1000px;
 }
 
@@ -155,7 +155,7 @@ main {
     padding-bottom: 50px;
 }
 h2 {
-    padding: 50px 0px;
+    padding: 40px 0px;
     font-size: 33px;
 }
 
@@ -193,7 +193,7 @@ h5 {
 }
 .col {
     width: 30%;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
 .border{
@@ -268,7 +268,7 @@ li h4 {
     width: 50%;
 }
 .partner {
-    margin: 80px 0px;
+    margin: 200px 0px 50px 0px;
 }
 .partnerbox {
     width: 50%;
@@ -287,6 +287,7 @@ p {
     border: 1px solid black;
     width: 120px;
     padding: 2px;
+    font-size: 12\px;
 }
 
 
@@ -296,6 +297,48 @@ img {
 
         /* Fourth Section */
 
-.fourth.section {
 
+            /* Partners */
+
+.logobox {
+    margin-top: 50px;
+    display: flex;
+}
+
+.partner-logos {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 300px;
+}
+.partnerlogo {
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partnerlogo img {
+    width: 60%;
+    fill:white;
+}
+.partnertext {
+    background-color: lightcoral;
+}
+
+.box1 {
+    background-color: lightgreen;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.box4 {
+    background-color: purple;
 }
