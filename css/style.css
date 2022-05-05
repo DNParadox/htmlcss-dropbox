@@ -193,6 +193,7 @@ h5 {
 }
 .col {
     width: 30%;
+    padding-bottom: 100px;
 }
 
 .border{
@@ -271,10 +272,16 @@ li h4 {
 }
 .partnerbox {
     width: 50%;
-    font-size: 13px;
     padding: 30px 30px;
     line-height: 22px;
 }
+
+p {
+    font-size: 13px;
+}
+
+
+
 .findbtn {
     margin-top: 20px;
     border: 1px solid black;
@@ -287,10 +294,8 @@ img {
     width: 100%;
 }
 
-.test1 {
-    background-color: red;
-}
+        /* Fourth Section */
 
-.test2 {
-    background-color: blue;
+.fourth.section {
+
 }
