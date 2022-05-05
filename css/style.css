@@ -10,7 +10,7 @@ body {
     position: relative
 }
 
-/* Header */
+                    /* Header */
 header {
     height: 100px;
     width: 100%;
@@ -29,7 +29,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-/* Li rules Header */
+                /* Li rules Header */
 li {
     list-style: none;
 }
@@ -47,7 +47,7 @@ header a {
     color: black;
 }
 
-/* Main */
+                /* Main */
 .first.section {
     background-color: #b3d0e7;
     height: 600px;
@@ -58,7 +58,7 @@ main {
     width: 100%;
 }
 
-/* jumbotron */
+                /* jumbotron */
 .jumbotron {
     width: 80%;
     padding-top: 40px;
@@ -119,10 +119,9 @@ main {
     height: auto;
     
 }
-/* Common */
+                    /* Common */
 
-
-/* Flex */
+                    /* Flex */
 
 .flexlist {
     display: flex;
@@ -136,13 +135,14 @@ main {
 
 .column {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-/* fine Flex */
+                    /* fine Flex */
 
- /* Second Section */
+                    /* Second Section */
 .second.section {
     margin-top: 200px;
-    background-color: lightgoldenrodyellow;
     height: 1000px;
 }
 
@@ -150,7 +150,7 @@ main {
     width:55%;
     margin: 0 auto;
 }
-/* fatture  */
+                    /* fatture  */
 .fatture {
     padding-bottom: 50px;
 }
@@ -180,27 +180,26 @@ h2 {
     padding-right: 20px;
 }
 
-/* Fine fatture */
+                    /* Fine fatture */
 
-/* colonne */
-
-.column {
-    justify-content: space-between;
-}
+                    /* colonne */
  
-.col h5 {
+h5 {
     padding: 10px 0px;
     vertical-align: middle;
     text-align: center;
     border-bottom: 1px solid #eeeef0;
-    font-size: 16px;
-    white-space: 3px;
     font-weight: normal;
 }
 .col {
-    border: 1px solid #eeeef0;  
     width: 30%;
 }
+
+.border{
+    border: 1px solid #eeeef0;  
+
+}
+
 h3 {
     font-size: 20px;
     padding: 10px 0px;
@@ -212,12 +211,12 @@ h3 {
 .subscribeoption {
     color:  gray;
 }
-.col ul {
+.border ul {
     padding: 10px 0px 0px 20px;
     line-height: 24px;
 }
 
-.col .middleul {
+.border .middleul {
     padding: 20px 0px 10px 20px;
 
 }
@@ -225,21 +224,73 @@ h3 {
 .lilink {
     padding-top: 20px;
 }
-.col li {
+.border li {
     font-size: 11px;
 }
 
-.col  li.btn {
+.border  li.btn {
     width: 180px;
 }
 
-.border.gray {
+.line.gray {
     border-bottom: 1px solid #eeeef0;
     width: 32px;
 }
 
 li h4 {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.check {
+    color: #0160ff;
+}
+
+.enterprise {
+    margin-top: 30px;
+}
+
+.enterprise .btn {
+    width: 170px;
+    align-self: center;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.enterprise .solution {
+    padding: 15px 0px;
+}
+
+            /* THIRD Section */
+
+
+.imgbox {
+    width: 50%;
+}
+.partner {
+    margin: 80px 0px;
+}
+.partnerbox {
+    width: 50%;
+    font-size: 13px;
+    padding: 30px 30px;
+    line-height: 22px;
+}
+.findbtn {
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 120px;
+    padding: 2px;
 }
 
 
+img {
+    width: 100%;
+}
+
+.test1 {
+    background-color: red;
+}
+
+.test2 {
+    background-color: blue;
+}
